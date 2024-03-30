@@ -1,11 +1,9 @@
 FROM node:21.4.0
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
-
-EXPOSE 3000
+COPY . .
 
 CMD ["npm", "start"]

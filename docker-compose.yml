@@ -1,13 +1,17 @@
-## Fichier : docker-compose.yml
-version: '3'
+version: '4.28'
+
 services:
-  react-docker:
-    container_name: portefolio
-    build:
-      context: ./portefolio
+
+  web:
+    container_name: Portefolio
+    build: 
+          context: .
+          dockerfile: Dockerfile
+  
     ports:
-      - "3000:3000"
-    # stdin_open: true
+      - 3000:3000
+    
     volumes:
-       - ./react-docker:/usr/src/app/portefolio
-       - /usr/src/app/react-docker/node_modules
+      - .:/app
+
+    command: npm run dev
