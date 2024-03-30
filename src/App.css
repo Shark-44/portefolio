@@ -53,8 +53,8 @@ h4 {
 .avatar {
   border-radius: 50%;
   background-color: white;
-  height: 30vw;
-  width: 30vw;
+  height: 40em;
+  width: 40em;
   margin-right: 50px;
 }
 p {
@@ -192,7 +192,7 @@ p {
   margin-top: 10vh;
 }
 h2 {
-  margin-top: 10vh;
+  margin-top: 35vh;
   font-size: 3em;
   border-bottom: 3px solid #E93D82;
 }
