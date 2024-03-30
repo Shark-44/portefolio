@@ -1,0 +1,13 @@
+## Fichier : docker-compose.yml
+version: '3'
+services:
+  react-docker:
+    container_name: portefolio
+    build:
+      context: ./portefolio
+    ports:
+      - "3000:3000"
+    # stdin_open: true
+    volumes:
+       - ./react-docker:/usr/src/app/portefolio
+       - /usr/src/app/react-docker/node_modules
