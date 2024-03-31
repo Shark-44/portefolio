@@ -16,7 +16,7 @@ import alterworld from "./assets/image/alterworld.png"
 import { useEffect, useState } from 'react'
 
 function App() {
-  const [isHovered, setIsHovered] = useState(false);
+  const [hovered, setHovered] = useState(false);
 
   useEffect(() => {
     const images = document.querySelectorAll('.icone');
@@ -25,7 +25,7 @@ function App() {
       const originalSrc = image.src;
 
       image.addEventListener('mouseenter', function() {
-        if (!isHovered) {
+        if (!hovered) {
           if (originalSrc.includes('linkedin')) {
             this.src = linkedinwh;
           } else if (originalSrc.includes('mail')) {
@@ -33,12 +33,12 @@ function App() {
           } else if (originalSrc.includes('github')) {
             this.src = githubwh;
           }
-          setIsHovered(true);
+          setHovered(true);
         }
       });
 
       image.addEventListener('mouseleave', function() {
-        if (isHovered) {
+        if (hovered) {
           if (originalSrc.includes('linkedin')) {
             this.src = linkedin;
           } else if (originalSrc.includes('mail')) {
@@ -46,11 +46,11 @@ function App() {
           } else if (originalSrc.includes('github')) {
             this.src = github;
           }
-          setIsHovered(false);
+          setHovered(false);
         }
       });
     });
-  }, [isHovered]);
+  }, [hovered]);
   return (
     <>
     <div className="wrapper">
