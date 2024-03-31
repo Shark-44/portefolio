@@ -13,9 +13,11 @@ import monkey from './assets/image/monkey.png';
 import pageperso from './assets/image/pageperso.png';
 import alterworld from "./assets/image/alterworld.png"
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [isHovered, setIsHovered] = useState(false);
+
   useEffect(() => {
     const images = document.querySelectorAll('.icone');
 
@@ -23,7 +25,7 @@ function App() {
       const originalSrc = image.src;
 
       image.addEventListener('mouseenter', function() {
-        if (!this.classList.contains('hovered')) {
+        if (!isHovered) {
           if (originalSrc.includes('linkedin')) {
             this.src = linkedinwh;
           } else if (originalSrc.includes('mail')) {
@@ -31,12 +33,12 @@ function App() {
           } else if (originalSrc.includes('github')) {
             this.src = githubwh;
           }
-          this.classList.add('hovered');
+          setIsHovered(true);
         }
       });
 
       image.addEventListener('mouseleave', function() {
-        if (this.classList.contains('hovered')) {
+        if (isHovered) {
           if (originalSrc.includes('linkedin')) {
             this.src = linkedin;
           } else if (originalSrc.includes('mail')) {
@@ -44,11 +46,11 @@ function App() {
           } else if (originalSrc.includes('github')) {
             this.src = github;
           }
-          this.classList.remove('hovered');
+          setIsHovered(false);
         }
       });
     });
-  }, []);
+  }, [isHovered]);
   return (
     <>
     <div className="wrapper">
