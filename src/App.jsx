@@ -63,9 +63,9 @@ function App() {
           <h1>Joanny BERNARDEAU</h1>
           <h4>Web Développeur</h4>
           <div className="link">
-            <a href="https://github.com/Shark-44" target="_blank"><img id="monImage1" className="icone" src={github} alt="github" /></a>
-            <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img id="monImage2" className="icone" src={linkedin} alt="linkedin" /></a>
-            <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img id="monImage3" className="icone" src={mail} alt="mail" /></a>
+            <a href="https://github.com/Shark-44" target="_blank"><img className="icone" src={github} alt="github" /></a>
+            <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img className="icone" src={linkedin} alt="linkedin" /></a>
+            <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img className="icone" src={mail} alt="mail" /></a>
           </div>
           <p>Dans un projet de reconversion, je suis passé par un bootcamp.<br /> Aujourd&apos;hui je recherche une entreprise pour un titre de Concepteur Développeur d&apos;Applications  en alternance<br /> Les langages que j&apos;ai étudié sont Javascript, React et Node.js, et je continue à apprendre le php et Symfony</p>
         </div>
