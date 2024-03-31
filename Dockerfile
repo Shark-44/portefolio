@@ -1,4 +1,4 @@
-FROM node:21.4.0
+FROM node:latest AS builder
 
 WORKDIR /app
 
@@ -6,4 +6,4 @@ COPY package*.json ./
 
 COPY . .
 
-CMD ["npm", "start"]
+CMD [ "dev"]
