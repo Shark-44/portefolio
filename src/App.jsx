@@ -6,7 +6,7 @@ import github from './assets/image/github.svg';
 import linkedin from './assets/image/linkedin.svg';
 import mail from './assets/image/mail.svg';
 import lelabo from './assets/image/LeLabo.png';
-import linkedinwh from './assets/image/linkedin-white.svg';
+/*import linkedinwh from './assets/image/linkedin-white.svg';*/
 import mailwh from './assets/image/mailwh.svg';
 import githubwh from './assets/image/githubwh.svg';
 import monkey from './assets/image/monkey.png';
