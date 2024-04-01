@@ -70,7 +70,7 @@ max-width: 300px;
   object-fit: cover;
   object-position: center;
 }
-.wrapper .content p {
+.wrapper .contenair p {
   color: white;
   font-size: 1.3em;
 }
