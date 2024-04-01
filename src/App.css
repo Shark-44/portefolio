@@ -269,17 +269,22 @@ h2 {
 
    }
    .card {
-    height: 50vw;
+    height: 85vw;
    }
    .card .circle {
-    top: 6vh;
+    top: 8vh;
+   }
+   .card .screen{
+    margin-left: 50px;
+    height: 95vw;
+    width: 55vw;
    }
    .list {
     display: flex;
     flex-wrap: wrap;
    }
    .content p {
-    font-size: 1em;
+    font-size: 1.3em;
     color: white;
    }
   #contact {
@@ -289,5 +294,6 @@ h2 {
   }
   #contact p{
     font-size: 4vw;
+    line-height: 0;
   }
 }
