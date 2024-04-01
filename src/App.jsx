@@ -25,7 +25,7 @@ function App() {
       image.addEventListener('mouseenter', function() {
         if (!this.classList.contains('hovered')) {
           if (originalSrc.includes('linkedin')) {
-            this.src = linkedinwh;
+            this.src = "./assets/image/linkedin-white.svg";
           } else if (originalSrc.includes('mail')) {
             this.src = mailwh;
           } else if (originalSrc.includes('github')) {

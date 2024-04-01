@@ -70,7 +70,7 @@ h1{
 }
 p {
   color: white;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 .link {
 
@@ -96,6 +96,7 @@ p {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
   
 }
 
@@ -221,4 +222,8 @@ h2 {
 #contact p {
   color: #211F26 ;
   font-size: 2em;
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 50px;
+  letter-spacing: 0.138em;
 }
