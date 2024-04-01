@@ -6,50 +6,20 @@ import github from './assets/image/github.svg';
 import linkedin from './assets/image/linkedin.svg';
 import mail from './assets/image/mail.svg';
 import lelabo from './assets/image/LeLabo.png';
-/*import linkedinwh from './assets/image/linkedin-white.svg';*/
+import linkedinwh from './assets/image/linkedin-white.svg';
 import mailwh from './assets/image/mailwh.svg';
 import githubwh from './assets/image/githubwh.svg';
 import monkey from './assets/image/monkey.png';
 import pageperso from './assets/image/pageperso.png';
 import alterworld from "./assets/image/alterworld.png"
 
-import { useEffect} from 'react'
+import { useState } from 'react';
+
 
 function App() {
-  useEffect(() => {
-    const images = document.querySelectorAll('.icone');
-
-    images.forEach(image => {
-      const originalSrc = image.src;
-
-      image.addEventListener('mouseenter', function() {
-        if (!this.classList.contains('hovered')) {
-          if (originalSrc.includes('linkedin')) {
-            this.src = "./assets/image/linkedin-white.svg";
-          } else if (originalSrc.includes('mail')) {
-            this.src = mailwh;
-          } else if (originalSrc.includes('github')) {
-            this.src = githubwh;
-          }
-          this.classList.add('hovered');
-        }
-      });
-
-      image.addEventListener('mouseleave', function() {
-        if (this.classList.contains('hovered')) {
-          if (originalSrc.includes('linkedin')) {
-            this.src = linkedin;
-          } else if (originalSrc.includes('mail')) {
-            this.src = mail;
-          } else if (originalSrc.includes('github')) {
-            this.src = github;
-          }
-          this.classList.remove('hovered');
-        }
-      });
-    });
-  });
-
+  const [over1, setOver1] = useState(false);
+  const [over2, setOver2] = useState(false);
+  const [over3, setOver3] = useState(false);
      
   return (
     <>
@@ -61,13 +31,18 @@ function App() {
     </div>
       <div className="contenair">
       
+      
         <div className="title">
           <h1>Joanny BERNARDEAU</h1>
           <h4>Web Développeur</h4>
           <div className="link">
-            <a href="https://github.com/Shark-44" target="_blank"><img className="icone" src={github} alt="github" /></a>
-            <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img className="icone" src={linkedin} alt="linkedin" /></a>
-            <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img className="icone" src={mail} alt="mail" /></a>
+
+            <a href="https://github.com/Shark-44" target="_blank"><img className="icone" src={over1 ? githubwh : github} onMouseOver={() => setOver1(true)}
+          onMouseOut={() => setOver1(false)} alt="github" /></a>
+            <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img className="icone" src={over2 ? linkedinwh : linkedin} onMouseOver={() => setOver2(true)}
+          onMouseOut={() => setOver2(false)} alt="linkedin" /></a>
+            <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img className="icone" src={over3 ? mailwh : mail} onMouseOver={() => setOver3(true)}
+          onMouseOut={() => setOver3(false)} alt="mail" /></a>
           </div>
           <p>Dans un projet de reconversion, je suis passé par un bootcamp.<br /> Aujourd&apos;hui je recherche une entreprise pour un titre de Concepteur Développeur d&apos;Applications  en alternance<br /> Les langages que j&apos;ai étudié sont Javascript, React et Node.js, et je continue à apprendre le php et Symfony</p>
         </div>
