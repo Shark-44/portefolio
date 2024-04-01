@@ -36,9 +36,9 @@
   height: 100vh;
  
 }
-h1{
+.wrapper .contenair .title h1{
   color: white;
-  font-size: 5vw;
+  font-size: 4vw;
   margin-left: 10%;
   font-style: normal;
   letter-spacing: 0.171em;
@@ -63,14 +63,18 @@ h1{
 .avatar {
   border-radius: 50%;
   background-color: white;
-  height: 25em;
-  width: 40em;
+width: 100%;
+height: 100%;
+max-width: 400px;
+  max-height: 450px;
   margin-right: 10vw;
   margin-top: 5%;
+  object-fit: cover;
+  object-position: center;
 }
-p {
+.wrapper p {
   color: white;
-  font-size: 1.7em;
+  font-size: 2vw;
 }
 .link {
 
@@ -226,4 +230,54 @@ h2 {
   font-size: 2em;
   line-height: 50px;
   letter-spacing: 0.138em;
+}
+@media screen and (max-width: 900px) {
+  .wrapper {
+    padding-top: 0;
+  }
+  .nav {
+    height: 10vh;
+  }
+  .nav a {
+    font-size: 1.3em;
+  }
+  .avatar {
+    width: 42%;
+    height: 27%;
+    margin-bottom: 10%;
+  }
+  .wrapper .contenair .title h1{
+    font-size: 1.3em;
+    letter-spacing:normal;
+    line-height: normal;
+  }
+  .wrapper h4 {
+    font-size: 1.3em;
+  }
+  .wrapper p {
+    font-size: 1em;
+  }
+  .contenair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   }
+   .link .icone {
+    height: 8vw;
+
+   }
+   .list {
+    display: flex;
+    flex-wrap: wrap;
+   }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+  }
+  #contact p{
+    font-size: 4vw;
+  }
 }
