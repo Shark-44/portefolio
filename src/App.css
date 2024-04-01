@@ -243,7 +243,7 @@ h2 {
   }
   .avatar {
     width: 42%;
-    height: 27%;
+    height: 35%;
     margin-bottom: 10%;
   }
   .wrapper .contenair .title h1{
@@ -268,14 +268,24 @@ h2 {
     height: 8vw;
 
    }
+   .card {
+    height: 50vw;
+   }
+   .card .circle {
+    top: 6vh;
+   }
    .list {
     display: flex;
     flex-wrap: wrap;
    }
+   .content p {
+    font-size: 1em;
+    color: white;
+   }
   #contact {
     display: flex;
     flex-direction: column;
-    height: 25vh;
+    
   }
   #contact p{
     font-size: 4vw;
