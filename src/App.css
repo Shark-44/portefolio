@@ -134,7 +134,7 @@ max-width: 400px;
 .card .circle {
   position: absolute;
   top: 0;
-  left: 13%;
+  left: 10%;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -229,7 +229,6 @@ h2 {
   font-weight: 600;
   font-size: 2em;
   line-height: 50px;
-  letter-spacing: 0.138em;
 }
 @media screen and (max-width: 900px) {
   .wrapper {
@@ -295,9 +294,9 @@ h2 {
     flex-direction: column;
     
   }
-  #contact p{
+  #contact p {
     font-size: 4vw;
     line-height: 0;
-    font-weight: 800;
+    font-weight: 700;
   }
 }
