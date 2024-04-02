@@ -247,7 +247,9 @@ h2 {
 @media screen and (max-width: 900px) {
   .wrapper {
     padding-top: 0;
-    height: auto;    
+    height: auto;
+    display: flex;
+    flex-direction: column;    
   }
   .nav {
     margin-top: 200px;
