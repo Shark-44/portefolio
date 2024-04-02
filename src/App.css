@@ -110,16 +110,16 @@
 
 .screen {
   position: absolute;
-  height: 30vw;
-  width: 23vw;
+  height: 36vw;
+  width: 25vw;
   left: 2vw;
   border-radius: 10px;
 }
 
 .card {
   position: relative;
-  width: 500px;
-  height: 28vw;
+  width: 400px;
+  height: 33vw;
   border-radius: 20px;
   display: flex;
   align-items: center;
