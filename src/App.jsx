@@ -24,14 +24,12 @@ function App() {
   return (
     <>
     <div className="wrapper">
-    <div className="nav">
+      <div className="nav">
     <li><a href="#contact">Contact</a></li>
       <li><a href="#project">Mes projets</a></li>
       
-    </div>
-      <div className="contenair">
-      
-      
+      </div>
+      <div className="contenair">       
         <div className="title">
           <h1>Joanny BERNARDEAU</h1>
           <h4>Web Développeur</h4>
@@ -46,8 +44,8 @@ function App() {
           </div>
           <p>Dans un projet de reconversion, je suis passé par un bootcamp.<br /> Aujourd&apos;hui je recherche une entreprise pour un titre de Concepteur Développeur d&apos;Applications  en alternance<br /> Les langages que j&apos;ai étudié sont Javascript, React et Node.js, et je continue à apprendre le php et Symfony</p>
         </div>
-      <img className="avatar" src={Moi} alt="Joanny" />
-     
+        <img className="avatar" src={Moi} alt="Joanny" />  
+      </div>
       <div className="blob">
           <svg width="100%" height="20%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="auto" shapeRendering="auto" fill="#ffffff">
             <defs>
@@ -64,10 +62,7 @@ function App() {
             </use>
            </g>
           </svg>
-      </div>
-    </div>
-
-    
+    </div>    
      </div>
     <div id="project" className="project">
       <h2> Mes projets</h2>
