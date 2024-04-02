@@ -287,6 +287,9 @@ h2 {
     height: 8vw;
 
    }
+   .blob {
+    top: 100vh;
+   }
    .card {
     height: 85vw;
    }
