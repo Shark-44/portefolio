@@ -249,10 +249,15 @@ h2 {
     padding-top: 0;
     height: auto;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    position: relative;    
+  }
+  .blob {
+    position: absolute;
+    bottom: 0;
   }
   .nav {
-    margin-top: 100px;
+    margin-top: 50px;
     height: 10vh;
   }
   .nav a {
