@@ -91,7 +91,7 @@
  padding-left: 2vw;
 }
 
-.blob {
+.wrapper .blob {
   position: absolute;
   /* padding-top: 0vh; */
   top: 90vh;
@@ -287,7 +287,7 @@ h2 {
     height: 8vw;
 
    }
-   .blob {
+   .wrapper .blob {
     top: 100vh;
    }
    .card {
