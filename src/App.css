@@ -250,12 +250,9 @@ h2 {
     height: auto;
     display: flex;
     flex-direction: column;
-    position: relative;    
+   
   }
-  .blob {
-    position: absolute;
-    bottom: 0;
-  }
+
   .nav {
     margin-top: 50px;
     height: 10vh;
