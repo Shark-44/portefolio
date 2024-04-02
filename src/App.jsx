@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import Moi from './assets/image/moi.png';
+import Moi from './assets/image/moi.webp';
 import github from './assets/image/github.svg';
 import linkedin from './assets/image/linkedin.svg';
 import mail from './assets/image/mail.svg';
