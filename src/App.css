@@ -268,6 +268,7 @@ h2 {
     width: 42%;
     height: 35%;
     margin: 10%;
+    margin-bottom: 20%;  
   }
   .wrapper .contenair .title h1{
     font-size: 1.3em;
@@ -305,7 +306,7 @@ h2 {
    .card .screen{
     margin-left: 50px;
     height: 95vw;
-    width: 55vw;
+    width: 57vw;
    }
    .list {
     display: flex;
