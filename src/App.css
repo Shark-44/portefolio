@@ -267,7 +267,7 @@ h2 {
   .avatar {
     width: 42%;
     height: 35%;
-    margin-bottom: 10%;
+    margin: 10%;
   }
   .wrapper .contenair .title h1{
     font-size: 1.3em;
@@ -279,6 +279,7 @@ h2 {
   }
   .wrapper p {
     font-size: 1em;
+    margin: 10px;
   }
   .contenair {
     display: flex;
