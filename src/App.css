@@ -329,3 +329,87 @@ h2 {
     font-weight: 700;
   }
 }
+@media screen and (max-width: 900px) and  (orientation: landscape) {
+  .wrapper {
+    padding-top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+  }
+
+  .nav {
+    margin-top: 50px;
+    height: 10vh;
+  }
+  .nav a {
+    font-size: 1.3em;
+  }
+  .avatar {
+    margin: 10%;
+    margin-bottom: 20%;  
+  }
+  .wrapper .contenair .title h1{
+    font-size: 1.3em;
+    letter-spacing:normal;
+    line-height: normal;
+  }
+  .wrapper h4 {
+    font-size: 1.3em;
+  }
+  .wrapper p {
+    font-size: 1em;
+    margin: 10px;
+  }
+  .contenair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   }
+   .link .icone {
+    height: 8vw;
+
+   }
+   .wrapper .blob {
+  position: absolute;
+  bottom: 0;
+   }
+   .card {
+    height: 85vw;
+   }
+   .card .circle {
+    top: 2vh;
+    left: -5%;
+   }
+   .card .screen{
+    margin-left: 50px;
+    height: 95vw;
+    width: 57vw;
+   }
+   .list {
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .card .content h4 {
+    font-size: 1.7em;
+   }
+   .card .content p {
+    font-size: 1.3em;
+    color: white;
+   }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #contact p {
+    color: blue;
+    font-size: 4vw;
+    line-height: 0;
+    font-weight: 700;
+  }
+}
+
