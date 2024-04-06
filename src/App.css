@@ -378,7 +378,7 @@ h2 {
   bottom: 0;
    }
    .card {
-    height: 85vw;
+    height: 45vw;
    }
    .card .circle {
     top: 2vh;
@@ -386,7 +386,7 @@ h2 {
    }
    .card .screen{
     margin-left: 50px;
-    height: 95vw;
+    height: 60vw;
     width: 57vw;
    }
    .list {
@@ -399,6 +399,8 @@ h2 {
    .card .content p {
     font-size: 1.3em;
     color: white;
+    padding: 10px;
+    margin: 18px;
    }
   #contact {
     display: flex;
@@ -406,7 +408,6 @@ h2 {
     
   }
   #contact p {
-    color: blue;
     font-size: 4vw;
     line-height: 0;
     font-weight: 700;
