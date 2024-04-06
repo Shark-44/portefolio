@@ -300,7 +300,7 @@ h2 {
    }
    .card .circle {
     top: 2vh;
-    right: 5%;
+    left: -5%;
    }
    .card .screen{
     margin-left: 50px;
