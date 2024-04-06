@@ -265,8 +265,6 @@ h2 {
     font-size: 1.3em;
   }
   .avatar {
-    width: 42%;
-    height: 35%;
     margin: 10%;
     margin-bottom: 20%;  
   }
@@ -302,6 +300,7 @@ h2 {
    }
    .card .circle {
     top: 2vh;
+    right: 5%;
    }
    .card .screen{
     margin-left: 50px;
