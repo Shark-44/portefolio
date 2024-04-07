@@ -297,6 +297,7 @@ h2 {
    }
    .card {
     height: 85vw;
+    margin-left: 10px;
    }
    .card .circle {
     top: 2vh;
@@ -388,6 +389,7 @@ h2 {
    .card {
     height: 45vw;
     margin-bottom: 20px;
+    margin-left: 15%;
    }
    .card .circle {
     top: 2vh;
