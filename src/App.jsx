@@ -83,7 +83,7 @@ function App() {
           <h4>Monkey Shroom</h4>
           <p>Avec React et express. Un projet en groupe avec objectif d&apos;une boutique à laquelle un jeu permet des credits</p>
           <a href="" >lien</a>
-          <a href="https://github.com/Shark-44/2023-05-JS-RemoteFR-codeQuiPeut-P2-G1" target="_blank">GitHub</a>
+          <a href="https://github.com/Shark-44/Projet2-wildcodeschool/tree/main" target="_blank">GitHub</a>
         </div>
         <img className="screen" src={monkey} alt="monkey" />     
       </div>
