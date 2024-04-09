@@ -34,20 +34,21 @@ function App() {
       </div>
       <div className="contenair">
       
-        <div className="title">     
+        <div className="title"> 
+ 
           <h1>Joanny BERNARDEAU</h1>
           <h4>Web Développeur</h4>
-             
-        <div className="link">
+          <div className="link">
           <a href="https://github.com/Shark-44" target="_blank"><img className="icone" src={over1 ? githubwh : github} onMouseOver={() => setOver1(true)}
           onMouseOut={() => setOver1(false)} alt="github" /></a>
           <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img className="icone" src={over2 ? linkedinwh : linkedin} onMouseOver={() => setOver2(true)}
           onMouseOut={() => setOver2(false)} alt="linkedin" /></a>
           <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img className="icone" src={over3 ? mailwh : mail} onMouseOver={() => setOver3(true)}
           onMouseOut={() => setOver3(false)} alt="mail" /></a>
-          <a href="https://onedrive.live.com/?cid=F1D07A223C005096&id=F1D07A223C005096%21s4378e26edbc44e2b8a95d1f4d4618289&parId=F1D07A223C005096%21103&o=OneUp" target="_blank"><img className="icone" src={over4 ? CVwh : CV} onMouseOver={() => setOver4(true)}
+          <a href="https://1drv.ms/b/c/f1d07a223c005096/EW7ieEPE2ytOipXR9NRhgokBJdQN4IvIRjyexhEHuauMew?e=qfejcJ" target="_blank"><img className="icone" src={over4 ? CVwh : CV} onMouseOver={() => setOver4(true)}
           onMouseOut={() => setOver4(false)} alt="mail" /></a>
-          </div>
+          </div>   
+
 
           <p>Dans un projet de reconversion, je suis passé par un bootcamp.<br /> Aujourd&apos;hui je recherche une entreprise pour un titre de Concepteur Développeur d&apos;Applications  en alternance<br /> Les langages que j&apos;ai étudié sont Javascript, React et Node.js, et je continue à apprendre le php et Symfony</p>
         </div>
