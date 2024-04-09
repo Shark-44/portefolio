@@ -5,6 +5,8 @@ import Moi from './assets/image/moi.webp';
 import github from './assets/image/github.svg';
 import linkedin from './assets/image/linkedin.svg';
 import mail from './assets/image/mail.svg';
+import CV from './assets/image/CVJoanny.svg';
+import CVwh from './assets/image/CVJoannywh.svg';
 import lelabo from './assets/image/LeLabo.png';
 import linkedinwh from './assets/image/linkedin-white.svg';
 import mailwh from './assets/image/mailwh.svg';
@@ -20,6 +22,7 @@ function App() {
   const [over1, setOver1] = useState(false);
   const [over2, setOver2] = useState(false);
   const [over3, setOver3] = useState(false);
+  const [over4, setOver4] = useState(false);
      
   return (
     <>
@@ -41,6 +44,8 @@ function App() {
           onMouseOut={() => setOver2(false)} alt="linkedin" /></a>
             <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img className="icone" src={over3 ? mailwh : mail} onMouseOver={() => setOver3(true)}
           onMouseOut={() => setOver3(false)} alt="mail" /></a>
+            <a href="https://dragon.pdf2go.com/fr/download-file/626b0880-0f74-4a67-9c2c-5fc43f198cbd/e462c8bb-6a15-4021-9e4a-dd4496b58221" target="_blank"><img className="icone" src={over4 ? CVwh : CV} onMouseOver={() => setOver4(true)}
+          onMouseOut={() => setOver4(false)} alt="CV" /></a>
           </div>
           <p>Dans un projet de reconversion, je suis passé par un bootcamp.<br /> Aujourd&apos;hui je recherche une entreprise pour un titre de Concepteur Développeur d&apos;Applications  en alternance<br /> Les langages que j&apos;ai étudié sont Javascript, React et Node.js, et je continue à apprendre le php et Symfony</p>
         </div>
