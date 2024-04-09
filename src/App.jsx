@@ -37,9 +37,10 @@ function App() {
         <h1>Joanny BERNARDEAU</h1>
           <h4>Web Développeur</h4>
 
-        <div className="link">
-          <a href="https://github.com/Shark-44" target="_blank" rel="noopener noreferrer">  <img className="icone" src={over1 ? githubwh : github} onMouseOver={() => setOver1(true)}
+        <div className='link'>
+          <a href="https://github.com/Shark-44" target="_blank" rel="noopener noreferrer"><img className="icone" src={over1 ? githubwh : github} onMouseOver={() => setOver1(true)}
           onMouseOut={() => setOver1(false)} alt="github" /></a>
+
         
           <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img className="icone" src={over2 ? linkedinwh : linkedin} onMouseOver={() => setOver2(true)}
           onMouseOut={() => setOver2(false)} alt="linkedin" /></a>
