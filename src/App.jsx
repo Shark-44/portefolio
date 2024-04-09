@@ -2,15 +2,15 @@
 import './App.css';
 
 import Moi from './assets/image/moi.webp';
-import github from './assets/image/github.svg';
-import linkedin from './assets/image/linkedin.svg';
-import mail from './assets/image/mail.svg';
-import CV from './assets/image/CVJoanny.svg';
-import CVwh from './assets/image/CVJoannywh.svg';
+import github from './assets/image/github.png';
+import linkedin from './assets/image/linkedin.png';
+import mail from './assets/image/mail.png';
+import CV from './assets/image/CVJoanny.png';
+import CVwh from './assets/image/CVJoannywh.png';
 import lelabo from './assets/image/LeLabo.png';
-import linkedinwh from './assets/image/linkedin-white.svg';
-import mailwh from './assets/image/mailwh.svg';
-import githubwh from './assets/image/githubwh.svg';
+import linkedinwh from './assets/image/linkedin-white.png';
+import mailwh from './assets/image/mailwh.png';
+import githubwh from './assets/image/githubwh.png';
 import monkey from './assets/image/monkey.png';
 import pageperso from './assets/image/pageperso.png';
 import alterworld from "./assets/image/alterworld.png"
