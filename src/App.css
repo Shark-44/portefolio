@@ -86,13 +86,14 @@
 }
 
 .link {
-  margin-left: 20%;
+  display: flex;
+    margin-left: 20%;
+    height: 20%;
+    align-items: center;
  }
 
 .contenair .title .link a {
   position: relative;
-  height: 100px;
-  width: 100px;
 }
 .link .icone {
   padding: 20px;
