@@ -32,24 +32,28 @@ function App() {
         <li><a href="#project">Mes projets</a></li>
       </div>
       <div className="contenair">
+
         <div className="title"> 
 
-        <h1>Joanny BERNARDEAU</h1>
+          <h1>Joanny BERNARDEAU</h1>
           <h4>Web Développeur</h4>
-        <div className='link'>
-          <a href="https://github.com/Shark-44" target="_blank" rel="noopener noreferrer"><img className="icone" src={over1 ? githubwh : github} onMouseOver={() => setOver1(true)}
-          onMouseOut={() => setOver1(false)} alt="github" /></a>        
-          <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img className="icone" src={over2 ? linkedinwh : linkedin} onMouseOver={() => setOver2(true)}
-          onMouseOut={() => setOver2(false)} alt="linkedin" /></a>
-          <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img className="icone" src={over3 ? mailwh : mail} onMouseOver={() => setOver3(true)}
-          onMouseOut={() => setOver3(false)} alt="mail" /></a>
-          <a href="https://1drv.ms/b/c/f1d07a223c005096/EW7ieEPE2ytOipXR9NRhgokBJdQN4IvIRjyexhEHuauMew?e=qfejcJ" target="_blank"><img className="icone" src={over4 ? CVwh : CV} onMouseOver={() => setOver4(true)}
-          onMouseOut={() => setOver4(false)} alt="mail" /></a>
-          </div> 
-          <p>Dans un projet de reconversion, je suis passé par un bootcamp.<br /> Aujourd&apos;hui je recherche une entreprise pour un titre de Concepteur Développeur d&apos;Applications  en alternance<br /> Les langages que j&apos;ai étudié sont Javascript, React et Node.js, et je continue à apprendre le php et Symfony</p>
-          </div>
-      <img className="avatar" src={Moi} alt="Joanny" /> </div>
-     
+          
+
+
+          <div className='link'>
+            <a href="https://github.com/Shark-44" target="_blank" rel="noopener noreferrer"><img className="icone" src={over1 ? githubwh : github} onMouseOver={() => setOver1(true)}
+            onMouseOut={() => setOver1(false)} alt="github" /></a>        
+            <a href="https://www.linkedin.com/in/joanny-bernardeau-6a9b51bb" target="_blank"><img className="icone" src={over2 ? linkedinwh : linkedin} onMouseOver={() => setOver2(true)}
+            onMouseOut={() => setOver2(false)} alt="linkedin" /></a>
+            <a href="mailto:joanny.bernardeau@gmail.com?subject=Sujet du message"><img className="icone" src={over3 ? mailwh : mail} onMouseOver={() => setOver3(true)}
+            onMouseOut={() => setOver3(false)} alt="mail" /></a>
+            <a href="https://1drv.ms/b/c/f1d07a223c005096/EW7ieEPE2ytOipXR9NRhgokBJdQN4IvIRjyexhEHuauMew?e=qfejcJ" target="_blank"><img className="icone" src={over4 ? CVwh : CV} onMouseOver={() => setOver4(true)}
+            onMouseOut={() => setOver4(false)} alt="mail" /></a>
+            </div> 
+            <p>Dans un projet de reconversion, je suis passé par un bootcamp.<br /> Aujourd&apos;hui je recherche une entreprise pour un titre de Concepteur Développeur d&apos;Applications  en alternance<br /> Les langages que j&apos;ai étudié sont Javascript, React et Node.js, et je continue à apprendre le php et Symfony</p>
+        </div>
+        <img className="avatar" src={Moi} alt="Joanny" /> 
+      </div>     
       <div className="blob">
           <svg width="100%" height="20%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="auto" shapeRendering="auto" fill="#ffffff">
             <defs>
@@ -66,8 +70,8 @@ function App() {
             </use>
            </g>
           </svg>
-    </div>    
-     </div>
+      </div>    
+    </div>
     <div id="project" className="project">
       <h2> Mes projets</h2>
       <div className="list">
