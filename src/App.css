@@ -283,12 +283,12 @@ h2 {
     margin-bottom: 20%;  
   }
   .wrapper .contenair .title h1{
-    font-size: 1.3em;
+    font-size: 1.4em;
     letter-spacing:normal;
     line-height: normal;
   }
   .wrapper h4 {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .wrapper p {
     font-size: 1em;
@@ -305,8 +305,12 @@ h2 {
     height: auto;
     width: auto;
    }
+   .link {
+    top: 30vh;
+    margin-left: 10%;
+   }
    .link .icone {
-    height: 8vw;
+    height: 10vw;
    }
    .wrapper .blob {
   position: absolute;
@@ -377,12 +381,12 @@ h2 {
     margin-bottom: 20%;  
   }
   .wrapper .contenair .title h1{
-    font-size: 1.3em;
+    font-size: 1.4em;
     letter-spacing:normal;
     line-height: normal;
   }
   .wrapper h4 {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .wrapper p {
     font-size: 1em;
