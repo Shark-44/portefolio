@@ -7,10 +7,9 @@
 .wrapper {
   display:flex;
   flex-direction: column;
-
-  justify-content: space-around;
   background-color:  #211F26 ;
   position: relative;
+  height: 100vh;
 }
 
 .nav {
@@ -36,8 +35,7 @@
 
 .contenair {
   display: flex;
-  justify-content: space-around;
-  height: 100vh;
+  height: 100%;
 }
 
 
@@ -97,6 +95,9 @@
 
 .contenair .title .link a {
   position: relative;
+  height: 150px;
+  width: 100px;
+
 }
 .link .icone {
   padding: 20px;
