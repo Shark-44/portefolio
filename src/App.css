@@ -35,7 +35,7 @@
 
 .contenair {
   display: flex;
-  height: 85%;
+  height: 80%;
 }
 
 
@@ -56,7 +56,7 @@
   font-weight: 400;
   letter-spacing: 0.302em;
   line-height: 22px;
-  margin: 5px 0 0 15%;
+  margin: 0 0 30vh 15%;
  }
 
 .title{
