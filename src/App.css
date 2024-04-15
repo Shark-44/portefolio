@@ -302,12 +302,18 @@ h2 {
     height: auto;
    }
    .contenair .title .link {
+    margin: 0;
+    height: auto;
+    width: 90vw;
+    margin-left: 8%;
+   }
+   .contenair .title .link a {
     height: auto;
     width: auto;
    }
    .link {
     top: 30vh;
-    margin-left: 10%;
+    margin-left: 0;
    }
    .link .icone {
     height: 10vw;
@@ -399,9 +405,13 @@ h2 {
     align-items: center;
     height: auto;
    }
-   .link {
+   .contenair .title .link {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 100vw;
     top:40vh;
    }
+
    .link .icone {
     height: 8vw;
 
