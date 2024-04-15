@@ -276,7 +276,7 @@ h2 {
   }
 
   .nav {
-    margin-top: 50px;
+    margin-top: 10px;
     height: 10vh;
   }
   .nav a {
@@ -316,7 +316,7 @@ h2 {
     width: auto;
    }
    .link {
-    top: 30vh;
+    top: 25vh;
     margin-left: 0;
    }
    .link .icone {
@@ -380,7 +380,7 @@ h2 {
   }
 
   .nav {
-    margin-top: 50px;
+    margin-top: 25px;
     height: 10vh;
     width: 90vw;
   }
@@ -392,12 +392,12 @@ h2 {
     margin-bottom: 20%;  
   }
   .wrapper .contenair .title h1{
-    font-size: 1.4em;
+    font-size: 1.5em;
     letter-spacing:normal;
     line-height: normal;
   }
   .wrapper h4 {
-    font-size: 1.4em;
+    font-size: 1.5sem;
   }
   .wrapper p {
     font-size: 1em;
@@ -413,8 +413,8 @@ h2 {
    .contenair .title .link {
     margin-left: 10%;
     margin-top: 5%;
-    width: 80vw;
-    top:40vh;
+    width: 75vw;
+    top:25vh;
    }
 
    .link .icone {
