@@ -14,6 +14,7 @@ import githubwh from './assets/image/githubwh.png';
 import monkey from './assets/image/monkey.png';
 import pageperso from './assets/image/pageperso.png';
 import alterworld from "./assets/image/alterworld.png"
+import recrea2 from "./assets/image/recrea2.png"
 
 import { useState } from 'react';
 
@@ -114,6 +115,16 @@ function App() {
           <a href="https://github.com/Shark-44/Pageperso" target="_blank">GitHub</a>
         </div>
         <img className="screen" src={pageperso} alt="monkey" />     
+      </div>
+      <div className="card">
+        <div className="circle"></div>
+        <div className="content">
+          <h4>Recré A2</h4>
+          <p>Avec React, j&apos;ai développé un projet avec typescript afin d&apos;apprendre et savoir faire</p>
+          <a href="https://typescript-react-swart.vercel.app/" >lien</a>
+          <a href="https://github.com/Shark-44/Typescript-react" target="_blank">GitHub</a>
+        </div>
+        <img className="screen" src={recrea2} alt="monkey" />     
       </div>
       </div>
       <div id="contact">
