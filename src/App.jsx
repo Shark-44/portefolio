@@ -13,8 +13,9 @@ import mailwh from './assets/image/mailwh.png';
 import githubwh from './assets/image/githubwh.png';
 import monkey from './assets/image/monkey.png';
 import pageperso from './assets/image/pageperso.png';
-import alterworld from "./assets/image/alterworld.png"
-import recrea2 from "./assets/image/recrea2.png"
+import alterworld from "./assets/image/alterworld.png";
+import recrea2 from "./assets/image/recrea2.png";
+import chaser from "./assets/image/jeu_chaser.png"
 
 import { useState } from 'react';
 
@@ -125,6 +126,16 @@ function App() {
           <a href="https://github.com/Shark-44/Typescript-react" target="_blank">GitHub</a>
         </div>
         <img className="screen" src={recrea2} alt="monkey" />     
+      </div>
+      <div className="card">
+        <div className="circle"></div>
+        <div className="content">
+          <h4>Clone Chaser HQ</h4>
+          <p>Toujours sous React et Typescript. Un clone d&apos;un jeu en cours de développement ou j'apprends certaines notions avec Redux</p>
+          <a href="" >En cours</a>
+          <a href="https://github.com/Shark-44/clone-Chase-HQ" target="_blank">GitHub</a>
+        </div>
+        <img className="screen" src={chaser} alt="chaser" />     
       </div>
       </div>
       <div id="contact">
