@@ -130,12 +130,12 @@ function App() {
       <div className="card">
         <div className="circle"></div>
         <div className="content">
-          <h4>Clone Chaser HQ</h4>
+          <h4>Clone Chase HQ</h4>
           <p>Toujours sous React et Typescript. Un clone d&apos;un jeu en cours de développement ou j'apprends certaines notions avec Redux</p>
           <a href="" >En cours</a>
           <a href="https://github.com/Shark-44/clone-Chase-HQ" target="_blank">GitHub</a>
         </div>
-        <img className="screen" src={chaser} alt="chaser" />     
+        <img className="screen" src={chaser} alt="chase" />     
       </div>
       </div>
       <div id="contact">
